@@ -1,11 +1,13 @@
-# gzipstream
+# gzipstream for Python3
+
+This is a fork of [https://github.com/Smerity/gzipstream](https://github.com/Smerity/gzipstream) with small changes to work with Python3 (and still works with Python2) 
 
 `gzipstream` allows Python to process multi-part gzip files from a streaming source.
 The library is originally intended for use with the Python [warc library](http://warc.readthedocs.org/en/latest/) for processing [Common Crawl](http://commoncrawl.org/) and other web archive data.
 
 # Installation
 
-If you are using pip, simply run the command `pip install -e git+https://github.com/commoncrawl/gzipstream.git#egg=gzipstream`.
+If you are using pip, simply run the command `pip install -e git+https://github.com/johannesguettler/gzipstream3.git#egg=gzipstream3`.
 You can also install using `python setup.py install` if so desired.
 
 # Usage
