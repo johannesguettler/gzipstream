@@ -10,6 +10,8 @@ The library is originally intended for use with the Python [warc library](http:/
 If you are using pip, simply run the command `pip install -e git+https://github.com/johannesguettler/gzipstream3.git#egg=gzipstream3`.
 You can also install using `python setup.py install` if so desired.
 
+If your pip installation links to a python2 pip-version try 'python3 -m pip install -e git+https://github.com/johannesguettler/gzipstream3.git#egg=gzipstream3'
+
 # Usage
 
 As an example of usage, `examples/streaming_commoncrawl_from_s3.py` shows how `gzipstream` can be used to incrementally process a gzipped web archive (WARC) file.
